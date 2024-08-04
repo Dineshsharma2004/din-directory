@@ -1,0 +1,29 @@
+/* src/components/SignIn.css */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+/* src/components/SignUp.css and src/components/SignIn.css */
+button {
+  padding: 10px 20px;
+  background-color: #4285f4;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px; /* Adjust this value */
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #357ae8;
+}
+
+  
+  
